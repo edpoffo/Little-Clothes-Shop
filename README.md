@@ -55,4 +55,18 @@ The inventoryTypes are:
 - Owned Clothes Inventory: When entering the Dresser it filters all items allowing just clothing to pass and then filters it again removing all clothes the player can't wear (for example, female clothes on male and vice versa) <This limitation was added because the spritesheet I used had REALLY different body types.
 - Style Inventory: All the clothing the player currently wears
 
+## Some visual changes
+Then I returned to the map and thought "this map needs some depth" then i started adding elements trying to make it more organic, adding different types of rocks in random places and so on, then I created the system that hides the building outside tilemaps so you could see the inside (instead of just teleporting the player inside)
 
+then, I had to create an easy way of creating and loading all the JSON files, after some time the JsonInventoryHandler was born.
+
+all shops read a JSON file with all items it needs to load to create it's inventory list.
+  
+## Changing clothes
+  After everything was ready, I started tinkering with the apparel system, thas allowed the player to spawn clothes from inventory and/or taking off some clothes back to the inventory.
+  
+## Random idea
+  After I looked the game kinda complete I thought "What if the player leaves the shop without paying?"
+  So I created the alarm system and the stealing action
+  
+Then I started to polish some design issues I had, fixing some bugs and changing a little bit the tilemaps to the final form
