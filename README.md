@@ -1,5 +1,12 @@
 # Little-Clothes-Shop
 
+This was a Unity C# study contemplating a 2d skin changing system. But, other systems were developed as well to make it feel more natural.
+All the systems developed for this project:
+- Changing clothes;
+- Buying clothes;
+- Continuous BGM (The shop has it's own song, and it continues playing even when you are not inside)
+- Fading roofs (When you enter the shop, instead of loading an extra map, everything is still in there, it just removes the roof)
+
 ## Code
 All codes were written inside the testing time frame.
 
